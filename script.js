@@ -22,6 +22,8 @@ let room2 = new Room ("Green", 15, 20);
 
 room1.getArea();
 room2.getArea();
+room1.getPerimeter();
+room2.getPerimeter();
 
 //phase2
 room2.available = false;
