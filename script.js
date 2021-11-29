@@ -6,23 +6,22 @@ class Room {
         //phase3
         this.capacity = 15;
     }
+        available = true;
 
     getArea() {
-        return length * width;
+        console.log(this.length * this.width);
     }
 
     getPerimeter() {
-        return (length * 2) + (width * 2);
+        console.log((this.length * 2) + (this.width * 2));
     }
-    // phase2
-    available = true;
-}
+    }
 
 let room1 = new Room ("Sun", 30, 20);
 let room2 = new Room ("Green", 15, 20);
 
-console.log(room1);
-console.log(room2);
+room1.getArea();
+room2.getArea();
 
 //phase2
 room2.available = false;
